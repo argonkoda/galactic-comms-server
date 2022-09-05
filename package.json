@@ -1,0 +1,35 @@
+{
+  "name": "galactic-comms-server",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "main": "dist/background.cjs",
+  "scripts": {
+    "renderer:dev": "vite",
+    "renderer:build": "vite build",
+    "background:build": "rollup --config rollup.background.config.js",
+    "background:dev": "rollup --config rollup.background.config.js --environment BUILD:development --watch",
+    "start": "electron-forge start --app-path dist/background.cjs",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.65",
+    "@electron-forge/maker-zip": "^6.0.0-beta.65",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@types/web": "^0.0.72",
+    "electron": "^20.1.0",
+    "rollup": "^2.78.1",
+    "socket.io": "^4.5.2",
+    "svelte": "^3.49.0",
+    "vite": "^3.0.7",
+    "webRTC": "file:../../libraries/js/webRTC",
+    "ws": "^8.8.1"
+  },
+  "config": {
+    "forge": "./forge.config.cjs"
+  }
+}
