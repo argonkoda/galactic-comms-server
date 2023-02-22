@@ -122,7 +122,7 @@ export async function start(options) {
       const dv = new DataView(data);
       if (dv.byteLength) {
         resetTimeout();
-        const messageId = String.fromCharCode(dv.getUint16(0, true));
+        const messageId = String.fromCharCode(dv.getUint8(0));
         switch (messageId) {
           // Handle quality packets.
           case 'Q': {
@@ -134,6 +134,10 @@ export async function start(options) {
             if (toSocket) {
               toSocket.data.lastSignal.set(fromId, quality);
             }
+            break;
+          }
+          case 'H': {
+            // Heartbeat from server.
             break;
           }
           default: {
