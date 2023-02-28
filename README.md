@@ -6,21 +6,21 @@ Its role is to mediate and control access and connections between peers on the v
 This is one of three parts that make up the system and should be installed on the **server side**.
 
 The other parts can be found here:
-- [The Torch Plugin](https://github.com/Someoneamzing/galactic-comms-plugin)
-- [The Voice Server (This Repo)](https://github.com/Someoneamzing/galactic-comms-server)
-- [The Voice Client](https://github.com/Someoneamzing/galactic-comms-client)
+- [The Torch Plugin](https://github.com/argonkoda/galactic-comms-plugin)
+- [The Voice Server (This Repo)](https://github.com/argonkoda/galactic-comms-server)
+- [The Voice Client](https://github.com/argonkoda/galactic-comms-client)
 
 ## Installation
 For most users you'll just want to install the program. To do that just follow the steps below. For those who are interested in helping or have a bug to report check out [CONTRIBUTING.md]('./CONTRIBUTING.md).
 
 > Note: This system is only available for Windows PC at the moment. This is mostly because Space Engineers is also Windows only. If someone wants to configure MacOS or Linux builds for the server or client, open an issue in the relevant repo. Unfortunately XBox support is unlikely due to the nature of modding and the permissions required for microphone access etc. 
 
-1. To start you'll want to grab the latest release from the [Releases Page](https://github.com/Someoneamzing/galactic-comms-server/releases). To do that find the latest release and download the `GalacticComms Voice Server.zip` file.
+1. To start you'll want to grab the latest release from the [Releases Page](https://github.com/argonkoda/galactic-comms-server/releases). To do that find the latest release and download the `GalacticComms Voice Server.zip` file.
 2. Extract the contents into a folder where you want to store the program.
 3. You can open the server UI by running `GalacticComms Voice Server.exe`.
 
 ## Setup
-Once the server is installed you can begin configuring the server. Before you begin make sure you have a dedicated server set up with the plugin installed. Instructions for that can be found in the [Plugin Repo](https://github.com/Someoneamzing/galactic-comms-plugin).
+Once the server is installed you can begin configuring the server. Before you begin make sure you have a dedicated server set up with the plugin installed. Instructions for that can be found in the [Plugin Repo](https://github.com/argonkoda/galactic-comms-plugin).
 
 Open the server by running `GalacticComms Voice Server.exe`. You should see a screen like the one below:  
 
