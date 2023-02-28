@@ -21,6 +21,6 @@ Also please try to commit with well sized commits. That is, don't commit with 4 
 This repo follows [SemVer](http://semver.org/). Conventional Commits describes the mapping between `fix` `feat` and `BREAKING CHANGE` to the different version levels.
 
 ## Releases
-Initially releases will be mediated by [@Someoneamzing](github.com/someoneamzing) (The author of the repo). This prevents situations where releases are made too early or include bad code. If the project grows to a point where this becomes infeasible then other options will be explored.
+Initially releases will be mediated by [@argonkoda](github.com/argonkoda) (The author of the repo). This prevents situations where releases are made too early or include bad code. If the project grows to a point where this becomes infeasible then other options will be explored.
 
 Documentation and other repository only changes will never constitute a release or SemVer increase unless it is part of the final UI.
